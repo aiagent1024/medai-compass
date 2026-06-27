@@ -1,5 +1,5 @@
 /* ============================================================
-   Responsible AI-enabled MD Hub — application logic
+   Responsible Medical AI — application logic
    Static, data-driven, no build step. Renders LIBRARY / TOPICS /
    GLOSSARY / TAXONOMY (loaded as globals) into #app via a hash router.
    ============================================================ */
@@ -137,10 +137,10 @@
     const bodyCount = new Set(LIBRARY.map((e) => e.body)).size;
 
     const worlds = [
-      { t: "General AI standards & frameworks", d: "ISO/IEC 42001, NIST AI RMF — govern any AI system", c: "#0891b2" },
-      { t: "Medical-device standards", d: "ISO 14971, IEC 62304, AAMI TIR34971 — device safety & quality", c: "#0e7490" },
-      { t: "Regional regulation", d: "EU AI Act + MDR/IVDR, US FDA, UK MHRA — the binding law", c: "#155e75" },
-      { t: "International guidance", d: "WHO, IMDRF, GMLP — convergence & best practice", c: "#0b3b5c" },
+      { t: "General AI standards & frameworks", d: "ISO/IEC 42001, NIST AI RMF — govern any AI system", c: "#3b82f6" },
+      { t: "Medical-device standards", d: "ISO 14971, IEC 62304, AAMI TIR34971 — device safety & quality", c: "#2563eb" },
+      { t: "Regional regulation", d: "EU AI Act + MDR/IVDR, US FDA, UK MHRA — the binding law", c: "#1d4ed8" },
+      { t: "International guidance", d: "WHO, IMDRF, GMLP — convergence & best practice", c: "#1e3a8a" },
     ];
 
     const paths = [
@@ -155,7 +155,7 @@
       <div class="container" style="padding:56px 20px 60px">
         <span class="pill">Regulatory & standards knowledge hub</span>
         <h1 style="font-size:clamp(28px,4vw,44px);margin:18px 0 14px;max-width:880px">
-          Regulations, standards & guidelines for <span style="color:#5ee0f0">AI-enabled medical devices</span></h1>
+          Regulations, standards & guidelines for <span style="color:#7cb0ff">AI-enabled medical devices</span></h1>
         <p class="lede" style="font-size:18px;max-width:760px;margin:0 0 26px">
           A guided reference for teams building <strong style="color:#fff">GenAI-enabled medical devices</strong> —
           organised around risk management, safety assessment, guardrails, ongoing monitoring and best practices.</p>
@@ -441,7 +441,7 @@
     const terms = (t.relatedGlossary || []).map((g) => termById.get(g)).filter(Boolean);
 
     document.getElementById("app").innerHTML = `
-    <div class="hero" style="background:linear-gradient(180deg,#0b2a3a,#0e4a5f)">
+    <div class="hero" style="background:linear-gradient(180deg,#0b1e45,#16357a)">
       <div class="container" style="padding:34px 20px 38px">
         <a class="btn btn-ghost-light" data-link="#/topics" style="margin-bottom:16px">${ICON.back} All topics</a>
         <div class="flex items-center gap-3" style="margin-bottom:8px">

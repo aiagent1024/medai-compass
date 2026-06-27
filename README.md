@@ -1,4 +1,4 @@
-# Responsible AI-enabled MD Hub
+# Responsible Medical AI
 
 A guided, **static** reference website for the regulations, guidelines and ISO/IEC standards relevant to **GenAI‑enabled medical devices** — organised around the five priorities your team cares about:
 
