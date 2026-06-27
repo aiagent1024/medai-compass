@@ -1,5 +1,5 @@
 /* ============================================================
-   Responsible Medical AI — custom design system
+   Responsible Medical AI Index — custom design system
    Tailwind (CDN) handles layout utilities; this file owns the
    brand palette, the colour-coded status/theme system, cards,
    chips, badges, the matrix, and small polish.
@@ -69,10 +69,9 @@ a:hover { text-decoration: underline; }
 }
 .brand { display: flex; align-items: center; gap: 12px; }
 .brand-mark {
-  width: 38px; height: 38px; border-radius: 10px;
-  background: linear-gradient(135deg, #3b82f6, #1d4ed8);
-  display: grid; place-items: center; color: #fff; flex: none;
-  box-shadow: var(--shadow-sm);
+  width: 40px; height: 40px; flex: none;
+  display: grid; place-items: center; color: #fff;
+  filter: drop-shadow(0 2px 3px rgba(29, 78, 216, .28));
 }
 .brand-title { font-weight: 800; color: var(--c-ink); letter-spacing: -.01em; line-height: 1.15; font-size: 15.5px; white-space: nowrap; }
 .brand-sub { font-size: 11px; color: var(--c-muted); font-weight: 600; text-transform: uppercase; letter-spacing: .05em; white-space: nowrap; }

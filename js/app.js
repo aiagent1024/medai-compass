@@ -1,5 +1,5 @@
 /* ============================================================
-   Responsible Medical AI — application logic
+   Responsible Medical AI Index — application logic
    Static, data-driven, no build step. Renders LIBRARY / TOPICS /
    GLOSSARY / TAXONOMY (loaded as globals) into #app via a hash router.
    ============================================================ */
