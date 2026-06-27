@@ -20,7 +20,7 @@ It's a static site, so any of these work:
 - Or serve it (nicer URLs, recommended):
 
   ```bash
-  cd medai-compass
+  cd medai-index
   python3 -m http.server 8000
   # then open http://localhost:8000
   ```
@@ -32,7 +32,7 @@ No installation or dependencies are required.
 ## What's inside
 
 ```
-medai-compass/
+medai-index/
 ├── index.html          # shell: nav + script loading
 ├── css/styles.css      # design system (brand palette, badges, matrix, cards)
 ├── js/app.js           # hash router + all views, faceted search/filter
@@ -85,7 +85,7 @@ The site is plain static files, so it deploys anywhere. Two easy options:
 > **Note:** GitHub Pages on a *private* repo requires a paid plan. Since all content here is public regulatory information, a **public** repo is the simplest path.
 
 ### Option B — Netlify (drag‑and‑drop)
-Go to Netlify → **Add new site → Deploy manually**, and drag the `medai-compass` folder onto the page. Done — no build settings needed.
+Go to Netlify → **Add new site → Deploy manually**, and drag the `medai-index` folder onto the page. Done — no build settings needed.
 
 ---
 
