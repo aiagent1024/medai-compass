@@ -36,7 +36,7 @@ const GLOSSARY = [
     id: "benefit-risk",
     term: "Benefit–Risk Determination",
     definition:
-      "The judgement that a device's clinical benefits outweigh its residual risks for the intended use. Required by ISO 14971 and by EU/US device law before a device can be marketed.",
+      "The judgement that a device's clinical benefits outweigh its residual risks for the intended use. Embodied in ISO 14971 and required by EU/US device law before a device can be marketed.",
     seeAlso: ["intended-use"],
     relatedInstruments: ["iso-14971-2019", "eu-mdr-2017-745"],
   },
@@ -204,7 +204,7 @@ const GLOSSARY = [
     id: "soup",
     term: "SOUP (Software of Unknown Provenance)",
     definition:
-      "Software not developed under the device's own lifecycle (e.g. a third-party library or pretrained model) whose safety must still be justified. IEC 62304 sets expectations for managing SOUP.",
+      "Software not developed under the device's own lifecycle (e.g. a third-party library) whose safety must still be justified. IEC 62304 sets expectations for managing SOUP; a pretrained model is commonly treated as SOUP.",
     seeAlso: [],
     relatedInstruments: ["iec-62304-2015"],
   },

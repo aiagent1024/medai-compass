@@ -53,19 +53,19 @@ const LIBRARY = [
     sources: [
       { label: "ISO catalogue — ISO/IEC 42001:2023", url: "https://www.iso.org/standard/42001", primary: true },
     ],
-    lastVerified: "2026-06-27",
-    notes: "Complements, does not replace, ISO 13485. Requires prompt-injection/adversarial considerations, bias detection and content controls to be managed under the AIMS.",
+    lastVerified: "2026-06-28",
+    notes: "Complements, does not replace, ISO 13485. The AIMS is where prompt-injection/adversarial considerations, bias detection and content controls are managed.",
   },
   {
     id: "iso-iec-42005-2025",
     shortName: "ISO/IEC 42005:2025",
-    fullTitle: "Information technology — Artificial intelligence — AI system impact assessment",
+    fullTitle: "Information technology — Artificial intelligence (AI) — AI system impact assessment",
     body: "iso-iec",
     jurisdiction: "international",
     type: "standard",
     status: "published",
-    statusDetail: "Published 2025. Verify exact month (sources indicate mid-2025) before citing precisely.",
-    keyDates: [{ date: "2025", label: "Published", kind: "published" }],
+    statusDetail: "Published May 2025 (2025-05-28); current.",
+    keyDates: [{ date: "2025-05", label: "Published", kind: "published" }],
     focus: "How to perform and document an AI system impact assessment across the lifecycle.",
     whyGenAIMedical:
       "Structures the analysis of intended and unintended impacts on patients and groups, complementing clinical risk management. Maps well to EU AI Act fundamental-rights impact thinking.",
@@ -78,8 +78,8 @@ const LIBRARY = [
     sources: [
       { label: "ISO catalogue — ISO/IEC 42005:2025", url: "https://www.iso.org/standard/42005", primary: true },
     ],
-    lastVerified: "2026-06-27",
-    recentDate: "2025",
+    lastVerified: "2026-06-28",
+    recentDate: "2025-05",
     recentNote: "New in 2025 — gives a concrete method for AI impact assessment that complements ISO/IEC 42001.",
   },
   {
@@ -105,7 +105,7 @@ const LIBRARY = [
     sources: [
       { label: "ISO catalogue — ISO/IEC TR 24028:2020", url: "https://www.iso.org/standard/77608.html", primary: true },
     ],
-    lastVerified: "2026-06-27",
+    lastVerified: "2026-06-28",
   },
   {
     id: "iso-iec-23894-2023",
@@ -129,7 +129,7 @@ const LIBRARY = [
     sources: [
       { label: "ISO catalogue — ISO/IEC 23894:2023", url: "https://www.iso.org/standard/77304.html", primary: true },
     ],
-    lastVerified: "2026-06-27",
+    lastVerified: "2026-06-28",
   },
   {
     id: "iso-iec-25059-2023",
@@ -140,7 +140,7 @@ const LIBRARY = [
     type: "standard",
     status: "under-revision",
     statusDetail: "2023 edition current; a revision (Draft International Standard) is in development.",
-    keyDates: [{ date: "2023", label: "Published", kind: "published" }],
+    keyDates: [{ date: "2023-06", label: "Published", kind: "published" }],
     focus: "Extends the ISO/IEC 25010 quality model with AI-specific quality characteristics.",
     whyGenAIMedical:
       "Defines measurable quality characteristics (functional adaptability, robustness, fairness, interpretability) you can specify and evaluate a model against — useful for safety/performance evidence.",
@@ -154,12 +154,12 @@ const LIBRARY = [
       { label: "ISO catalogue — ISO/IEC 25059:2023", url: "https://www.iso.org/standard/80655.html", primary: true },
       { label: "ISO catalogue — revision (DIS)", url: "https://www.iso.org/standard/88234.html", primary: false },
     ],
-    lastVerified: "2026-06-27",
+    lastVerified: "2026-06-28",
   },
   {
     id: "iso-iec-ts-25058-2024",
     shortName: "ISO/IEC TS 25058:2024",
-    fullTitle: "Systems and software engineering — SQuaRE — Guidance for quality evaluation of AI systems",
+    fullTitle: "Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — Guidance for quality evaluation of artificial intelligence (AI) systems",
     body: "iso-iec",
     jurisdiction: "international",
     type: "standard",
@@ -179,20 +179,20 @@ const LIBRARY = [
     sources: [
       { label: "ISO catalogue — ISO/IEC TS 25058:2024", url: "https://www.iso.org/standard/82570.html", primary: true },
     ],
-    lastVerified: "2026-06-27",
+    lastVerified: "2026-06-28",
   },
   {
     id: "iso-iec-24029-2023",
     shortName: "ISO/IEC 24029 (Parts 1–2)",
-    fullTitle: "Artificial intelligence — Assessment of the robustness of neural networks (Part 1: Overview, 2021; Part 2: Formal methods, 2023)",
+    fullTitle: "Artificial intelligence — Assessment of the robustness of neural networks (Part 1: Overview, 2021; Part 2: Methodology for the use of formal methods, 2023)",
     body: "iso-iec",
     jurisdiction: "international",
     type: "standard",
     status: "published",
-    statusDetail: "Part 1 (TR) published 2021; Part 2 published 2023. Part 3 (statistical methods) reported in development.",
+    statusDetail: "Part 1 (TR) published 2021-03; Part 2 published 2023-08. Part 3 (statistical methods) is at Draft International Standard stage (ISO/IEC DIS 24029-3).",
     keyDates: [
-      { date: "2021", label: "Part 1 published", kind: "published" },
-      { date: "2023", label: "Part 2 published", kind: "published" },
+      { date: "2021-03", label: "Part 1 published", kind: "published" },
+      { date: "2023-08", label: "Part 2 published", kind: "published" },
     ],
     focus: "Methods (overview, formal, statistical) to assess the robustness of neural networks.",
     whyGenAIMedical:
@@ -207,7 +207,7 @@ const LIBRARY = [
       { label: "ISO catalogue — ISO/IEC TR 24029-1:2021", url: "https://www.iso.org/standard/77609.html", primary: true },
       { label: "ISO catalogue — ISO/IEC 24029-2:2023", url: "https://www.iso.org/standard/79804.html", primary: true },
     ],
-    lastVerified: "2026-06-27",
+    lastVerified: "2026-06-28",
   },
 
   /* ---------------------------------------------------------------- */
@@ -235,7 +235,7 @@ const LIBRARY = [
     sources: [
       { label: "ISO catalogue — ISO 14971:2019", url: "https://www.iso.org/standard/72704.html", primary: true },
     ],
-    lastVerified: "2026-06-27",
+    lastVerified: "2026-06-28",
   },
   {
     id: "aami-tir34971-2023",
@@ -245,7 +245,7 @@ const LIBRARY = [
     jurisdiction: "multi-regulator",
     type: "guidance",
     status: "published",
-    statusDetail: "Published 2023 (AAMI US / BSI UK). Successor to AAMI CR34971:2022 (Consensus Report). US-recognised consensus standard.",
+    statusDetail: "Published 2023 (AAMI US / BSI UK). Successor to AAMI CR34971:2022 (Consensus Report) — the version FDA recognises.",
     keyDates: [
       { date: "2022", label: "CR34971 (predecessor)", kind: "published" },
       { date: "2023", label: "TIR34971 published", kind: "published" },
@@ -263,7 +263,7 @@ const LIBRARY = [
       { label: "AAMI — TIR34971:2023", url: "https://array.aami.org/doi/book/10.2345/9781570208669", primary: true },
       { label: "ANSI webstore — AAMI CR34971:2022", url: "https://webstore.ansi.org/standards/aami/aamicr349712022", primary: false },
     ],
-    lastVerified: "2026-06-27",
+    lastVerified: "2026-06-28",
   },
   {
     id: "iec-62304-2015",
@@ -290,7 +290,7 @@ const LIBRARY = [
     sources: [
       { label: "ISO catalogue — IEC 62304:2006/Amd 1:2015", url: "https://www.iso.org/standard/64686.html", primary: true },
     ],
-    lastVerified: "2026-06-27",
+    lastVerified: "2026-06-28",
   },
   {
     id: "iso-13485-2016",
@@ -318,7 +318,7 @@ const LIBRARY = [
       { label: "ISO catalogue — ISO 13485:2016", url: "https://www.iso.org/standard/59752.html", primary: true },
       { label: "FDA — Quality Management System Regulation (QMSR)", url: "https://www.fda.gov/medical-devices/postmarket-requirements-devices/quality-management-system-regulation-qmsr", primary: true },
     ],
-    lastVerified: "2026-06-27",
+    lastVerified: "2026-06-28",
     recentNote: "FDA QMSR — which incorporates ISO 13485:2016 — becomes effective 2 Feb 2026, aligning US quality-system rules with the international standard.",
   },
   {
@@ -346,7 +346,7 @@ const LIBRARY = [
     sources: [
       { label: "ISO catalogue — IEC 62366-1:2015/Amd 1:2020", url: "https://www.iso.org/standard/73007.html", primary: true },
     ],
-    lastVerified: "2026-06-27",
+    lastVerified: "2026-06-28",
   },
   {
     id: "iso-tr-24291-2021",
@@ -357,7 +357,7 @@ const LIBRARY = [
     type: "standard",
     subType: "technical-report",
     status: "published",
-    statusDetail: "Published March 2021 (ISO/TC 215 Health informatics). A revision is reported in the pipeline.",
+    statusDetail: "Published March 2021 (ISO/TC 215 Health informatics). Current — ISO stage 60.60 (published); no revision listed as of 2026.",
     keyDates: [{ date: "2021-03", label: "Published", kind: "published" }],
     focus: "Categorises ML clinical use cases and the data → train → validate flow in healthcare.",
     whyGenAIMedical:
@@ -371,7 +371,7 @@ const LIBRARY = [
     sources: [
       { label: "ISO catalogue — ISO/TR 24291:2021", url: "https://www.iso.org/standard/78345.html", primary: true },
     ],
-    lastVerified: "2026-06-27",
+    lastVerified: "2026-06-28",
   },
   {
     id: "iec-60601-1",
@@ -381,8 +381,12 @@ const LIBRARY = [
     jurisdiction: "international",
     type: "standard",
     status: "published",
-    statusDetail: "3rd edition with amendments. Future editions reported to add AI-aspect guidance — verify before relying on this.",
-    keyDates: [{ date: "2005", label: "3rd ed. (with later amendments)", kind: "published" }],
+    statusDetail: "Edition 3.2 (2005 + Amd 1:2012 + Amd 2:2020). A 4th edition is in development and reported to address AI aspects — verify before relying on this.",
+    keyDates: [
+      { date: "2005", label: "3rd edition published", kind: "published" },
+      { date: "2012", label: "Amendment 1", kind: "amended" },
+      { date: "2020", label: "Amendment 2", kind: "amended" },
+    ],
     focus: "Basic safety and essential performance for medical electrical equipment and systems.",
     whyGenAIMedical:
       "Relevant only when the GenAI function is part of medical electrical equipment (e.g. AI in a patient monitor or infusion system). For pure SaMD or a cloud LLM it is typically out of scope — filter by 'Medical electrical equipment' applicability.",
@@ -395,7 +399,7 @@ const LIBRARY = [
     sources: [
       { label: "IEC — IEC 60601-1", url: "https://webstore.iec.ch/publication/2612", primary: true },
     ],
-    lastVerified: "2026-06-27",
+    lastVerified: "2026-06-28",
     notes: "Applies only when the device is medical electrical equipment, not for software-only / cloud GenAI.",
   },
 
@@ -425,7 +429,7 @@ const LIBRARY = [
       { label: "NIST — AI Risk Management Framework", url: "https://www.nist.gov/itl/ai-risk-management-framework", primary: true },
       { label: "NIST AI 100-1 (PDF)", url: "https://nvlpubs.nist.gov/nistpubs/ai/nist.ai.100-1.pdf", primary: true },
     ],
-    lastVerified: "2026-06-27",
+    lastVerified: "2026-06-28",
   },
   {
     id: "nist-ai-600-1-2024",
@@ -450,7 +454,7 @@ const LIBRARY = [
       { label: "NIST — Generative AI Profile", url: "https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-generative-artificial-intelligence", primary: true },
       { label: "NIST AI 600-1 (PDF)", url: "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf", primary: true },
     ],
-    lastVerified: "2026-06-27",
+    lastVerified: "2026-06-28",
     recentNote: "The most GenAI-specific US guidance — 12 risk categories and 200+ suggested actions for generative AI.",
   },
   {
@@ -461,10 +465,10 @@ const LIBRARY = [
     jurisdiction: "us",
     type: "programme",
     status: "evolving",
-    statusDetail: "The US AI Safety Institute was renamed CAISI on 4 June 2025, refocusing on standards, security and evaluations (cybersecurity, biosecurity).",
+    statusDetail: "The US AI Safety Institute was renamed CAISI in June 2025, refocusing on standards, security and evaluations (cybersecurity, biosecurity).",
     keyDates: [
       { date: "2023-11", label: "AISI established", kind: "published" },
-      { date: "2025-06-04", label: "Renamed CAISI", kind: "amended" },
+      { date: "2025-06", label: "Renamed CAISI", kind: "amended" },
     ],
     focus: "The US institutional body for AI evaluation and standards.",
     whyGenAIMedical:
@@ -478,7 +482,7 @@ const LIBRARY = [
     sources: [
       { label: "US Dept. of Commerce — statement on CAISI", url: "https://www.commerce.gov/news/press-releases/2025/06/statement-us-secretary-commerce-howard-lutnick-transforming-us-ai", primary: true },
     ],
-    lastVerified: "2026-06-27",
+    lastVerified: "2026-06-28",
     notes: "An institution/programme, not a document — its remit and name have changed and may change again.",
     recentNote: "The US AI Safety Institute was renamed CAISI in June 2025, shifting emphasis from 'safety' to 'standards, security and innovation'.",
   },
@@ -507,7 +511,7 @@ const LIBRARY = [
     sources: [
       { label: "Federal Register — FDA AI lifecycle draft guidance", url: "https://www.federalregister.gov/documents/2025/01/07/2024-31543/artificial-intelligence-enabled-device-software-functions-lifecycle-management-and-marketing", primary: true },
     ],
-    lastVerified: "2026-06-27",
+    lastVerified: "2026-06-28",
     isProvisional: true,
     recentDate: "2025-01",
     recentNote: "FDA's draft total-product-lifecycle guidance for AI devices (Jan 2025) — comprehensive but still draft; watch for finalisation.",
@@ -537,7 +541,7 @@ const LIBRARY = [
     sources: [
       { label: "Federal Register — FDA PCCP final guidance", url: "https://www.federalregister.gov/documents/2024/12/04/2024-28361/marketing-submission-recommendations-for-a-predetermined-change-control-plan-for-artificial", primary: true },
     ],
-    lastVerified: "2026-06-27",
+    lastVerified: "2026-06-28",
     recentNote: "Finalised Dec 2024 — lets manufacturers pre-authorise bounded future AI model changes; the final version covers all AI, not just ML.",
   },
   {
@@ -548,8 +552,8 @@ const LIBRARY = [
     jurisdiction: "multi-regulator",
     type: "guiding-principles",
     status: "final",
-    statusDetail: "Joint FDA / Health Canada / MHRA principles, published October 2023 (verify exact date).",
-    keyDates: [{ date: "2023-10", label: "Published", kind: "final" }],
+    statusDetail: "Joint FDA / Health Canada / MHRA principles, published 24 October 2023.",
+    keyDates: [{ date: "2023-10-24", label: "Published", kind: "final" }],
     focus: "Five principles for PCCPs: focused, bounded, evidence-based, transparent, total-product-lifecycle.",
     whyGenAIMedical:
       "The tri-regulator philosophy underpinning FDA's final PCCP guidance — useful when designing change-control across multiple jurisdictions.",
@@ -562,7 +566,7 @@ const LIBRARY = [
     sources: [
       { label: "FDA — PCCP guiding principles", url: "https://www.fda.gov/medical-devices/software-medical-device-samd/predetermined-change-control-plans-machine-learning-enabled-medical-devices-guiding-principles", primary: true },
     ],
-    lastVerified: "2026-06-27",
+    lastVerified: "2026-06-28",
   },
   {
     id: "gmlp-guiding-principles-2021",
@@ -590,7 +594,7 @@ const LIBRARY = [
       { label: "FDA — GMLP guiding principles", url: "https://www.fda.gov/medical-devices/software-medical-device-samd/good-machine-learning-practice-medical-device-development-guiding-principles", primary: true },
       { label: "Health Canada — GMLP", url: "https://www.canada.ca/en/health-canada/services/drugs-health-products/medical-devices/good-machine-learning-practice-medical-device-development.html", primary: false },
     ],
-    lastVerified: "2026-06-27",
+    lastVerified: "2026-06-28",
   },
   {
     id: "fda-transparency-principles-2024",
@@ -614,7 +618,7 @@ const LIBRARY = [
     sources: [
       { label: "FDA — Transparency guiding principles", url: "https://www.fda.gov/medical-devices/software-medical-device-samd/transparency-machine-learning-enabled-medical-devices-guiding-principles", primary: true },
     ],
-    lastVerified: "2026-06-27",
+    lastVerified: "2026-06-28",
     recentNote: "June 2024 tri-regulator principles on what transparency means for ML medical devices.",
   },
   {
@@ -624,9 +628,12 @@ const LIBRARY = [
     body: "fda",
     jurisdiction: "us",
     type: "guidance",
-    status: "draft",
-    statusDetail: "Updated/draft guidance published 6 January 2026 — verify finalisation.",
-    keyDates: [{ date: "2026-01-06", label: "Updated/draft", kind: "draft" }],
+    status: "final",
+    statusDetail: "Final FDA guidance — updated guidances issued 6 January 2026 (Clinical Decision Support Software re-issued 29 January 2026 with corrections); they supersede the 2022 CDS and 2019 General Wellness guidances.",
+    keyDates: [
+      { date: "2026-01-06", label: "Final guidances issued", kind: "final" },
+      { date: "2026-01-29", label: "CDS re-issued (corrections)", kind: "final" },
+    ],
     focus: "Expands enforcement discretion so many low-risk AI CDS tools and consumer wearables fall outside device regulation.",
     whyGenAIMedical:
       "Changes which low-risk GenAI tools need premarket review where a clinician can independently review the recommendation. High-risk diagnostic/treatment GenAI remains fully regulated — use to scope whether a given tool is in or out.",
@@ -637,11 +644,10 @@ const LIBRARY = [
     related: ["fda-ai-lifecycle-draft-2025"],
     glossaryTerms: [],
     sources: [
-      { label: "Analysis — FDA digital-health guidance updates (Jan 2026)", url: "https://www.ropesgray.com/en/insights/alerts/2026/01/fda-adapts-with-the-times-on-digital-health-updated-guidances-on-general-wellness-products", primary: false },
+      { label: "AHA News — FDA issues wellness & CDS guidance (6 Jan 2026)", url: "https://www.aha.org/news/headline/2026-01-06-fda-issues-guidance-wellness-products-clinical-decision-support-software", primary: false },
     ],
-    lastVerified: "2026-06-27",
-    isProvisional: true,
-    notes: "Recent and draft — confirm scope and finalisation against FDA primary sources before relying on it.",
+    lastVerified: "2026-06-28",
+    notes: "Final FDA guidance. Expands enforcement discretion for low-risk clinical decision support and general-wellness/wearable tools; high-risk diagnostic or treatment AI remains fully regulated. (FDA.gov guidance pages were unreachable for automated verification; cited via reputable secondary coverage.)",
     recentNote: "Jan 2026 FDA updates ease oversight of low-risk AI clinical decision support and wearables; high-risk GenAI stays regulated.",
   },
 
@@ -677,12 +683,12 @@ const LIBRARY = [
       { label: "EU AI Act — implementation timeline", url: "https://artificialintelligenceact.eu/implementation-timeline/", primary: true },
       { label: "EUR-Lex — Regulation (EU) 2024/1689", url: "https://eur-lex.europa.eu/eli/reg/2024/1689/oj", primary: true },
     ],
-    lastVerified: "2026-06-27",
+    lastVerified: "2026-06-28",
     isProvisional: true,
     notes:
       "PROVISIONAL 'Digital Omnibus' delay: in 2026 the EU reached a provisional agreement to postpone high-risk deadlines — standalone Annex III high-risk to ~2 Dec 2027 and product-embedded high-risk (medical devices, Annex I) to ~2 Aug 2028 — because harmonised standards are not ready. This is not yet settled law and dates vary between sources; treat as proposed, not final.",
     recentDate: "2026-05",
-    recentNote: "A provisional 2026 'Digital Omnibus' agreement (reported May 2026) would delay the EU AI Act's high-risk deadlines for medical-device AI to ~Aug 2028 — proposed, not yet final.",
+    recentNote: "A provisional 2026 'Digital Omnibus' agreement (reported 7 May 2026) would delay the EU AI Act's high-risk deadlines for medical-device AI to ~Aug 2028 — proposed, not yet final.",
   },
   {
     id: "eu-mdr-2017-745",
@@ -706,7 +712,7 @@ const LIBRARY = [
     sources: [
       { label: "EUR-Lex — Regulation (EU) 2017/745", url: "https://eur-lex.europa.eu/eli/reg/2017/745/oj", primary: true },
     ],
-    lastVerified: "2026-06-27",
+    lastVerified: "2026-06-28",
   },
   {
     id: "eu-ivdr-2017-746",
@@ -730,7 +736,7 @@ const LIBRARY = [
     sources: [
       { label: "EUR-Lex — Regulation (EU) 2017/746", url: "https://eur-lex.europa.eu/eli/reg/2017/746/oj", primary: true },
     ],
-    lastVerified: "2026-06-27",
+    lastVerified: "2026-06-28",
   },
 
   /* ---------------------------------------------------------------- */
@@ -744,10 +750,10 @@ const LIBRARY = [
     jurisdiction: "uk",
     type: "programme",
     status: "evolving",
-    statusDetail: "Ongoing. AI Airlock pilot launched spring 2024; UK post-market surveillance requirements in force June 2025; an AI-specific framework expected during 2026.",
+    statusDetail: "Ongoing. AI Airlock pilot launched spring 2024; UK post-market surveillance requirements in force 16 June 2025; an AI-specific framework expected during 2026.",
     keyDates: [
       { date: "2024", label: "AI Airlock pilot launched", kind: "published" },
-      { date: "2025-06", label: "UK PMS requirements in force", kind: "in-force" },
+      { date: "2025-06-16", label: "UK PMS requirements in force", kind: "in-force" },
       { date: "2026", label: "AI framework expected", kind: "applies" },
     ],
     focus: "Adapting UK medical-device regulation for software and AI, with a sandbox to test real-world AIaMD (including GenAI).",
@@ -762,7 +768,7 @@ const LIBRARY = [
     sources: [
       { label: "GOV.UK — AI Airlock regulatory sandbox", url: "https://www.gov.uk/government/collections/ai-airlock-the-regulatory-sandbox-for-aiamd", primary: true },
     ],
-    lastVerified: "2026-06-27",
+    lastVerified: "2026-06-28",
     notes: "An evolving programme — date-stamp any specific claim, as milestones shift.",
   },
 
@@ -791,7 +797,7 @@ const LIBRARY = [
     sources: [
       { label: "WHO — Ethics and governance of AI for health", url: "https://www.who.int/publications/i/item/9789240029200", primary: true },
     ],
-    lastVerified: "2026-06-27",
+    lastVerified: "2026-06-28",
   },
   {
     id: "who-lmm-2024",
@@ -816,7 +822,7 @@ const LIBRARY = [
       { label: "WHO — news: LMM guidance", url: "https://www.who.int/news/item/18-01-2024-who-releases-ai-ethics-and-governance-guidance-for-large-multi-modal-models", primary: true },
       { label: "WHO — publication", url: "https://www.who.int/publications/i/item/9789240084759", primary: true },
     ],
-    lastVerified: "2026-06-27",
+    lastVerified: "2026-06-28",
     recentNote: "WHO's Jan 2024 guidance is the most GenAI-specific international document for health — 40+ recommendations for large multi-modal models.",
   },
   {
@@ -827,7 +833,7 @@ const LIBRARY = [
     jurisdiction: "international",
     type: "guiding-principles",
     status: "final",
-    statusDetail: "IMDRF final document, January 2025. Internationalises the 2021 tri-agency GMLP. Verify document number before formal citation.",
+    statusDetail: "IMDRF/AIML WG/N88 FINAL:2025, January 2025. Internationalises the 2021 tri-agency GMLP.",
     keyDates: [{ date: "2025-01", label: "Final", kind: "final" }],
     focus: "Globally harmonised version of the 10 GMLP guiding principles.",
     whyGenAIMedical:
@@ -839,9 +845,9 @@ const LIBRARY = [
     related: ["gmlp-guiding-principles-2021", "imdrf-samd-n81-2025"],
     glossaryTerms: ["gmlp"],
     sources: [
-      { label: "IMDRF — published documents", url: "https://www.imdrf.org/documents", primary: true },
+      { label: "IMDRF — GMLP (N88) document page", url: "https://www.imdrf.org/documents/good-machine-learning-practice-medical-device-development-guiding-principles", primary: true },
     ],
-    lastVerified: "2026-06-27",
+    lastVerified: "2026-06-28",
     recentNote: "Jan 2025 — IMDRF internationalised the 2021 GMLP principles, giving them global regulatory weight.",
   },
   {
@@ -852,8 +858,8 @@ const LIBRARY = [
     jurisdiction: "international",
     type: "guidance",
     status: "final",
-    statusDetail: "IMDRF final document, 2025. Verify document number before formal citation.",
-    keyDates: [{ date: "2025", label: "Final", kind: "final" }],
+    statusDetail: "IMDRF/SaMD WG/N81 FINAL:2025, January 2025.",
+    keyDates: [{ date: "2025-01", label: "Final", kind: "final" }],
     focus: "Harmonised terminology and characterisation of software-specific risk for medical device software.",
     whyGenAIMedical:
       "Provides the shared vocabulary and software-risk characterisation the field is converging on — a good anchor for the glossary and for framing software-specific (vs clinical) risk of a GenAI function.",
@@ -864,8 +870,8 @@ const LIBRARY = [
     related: ["imdrf-gmlp-n88-2025", "iec-62304-2015"],
     glossaryTerms: ["samd"],
     sources: [
-      { label: "IMDRF — published documents", url: "https://www.imdrf.org/documents", primary: true },
+      { label: "IMDRF — N81 document page", url: "https://www.imdrf.org/documents/characterization-considerations-medical-device-software-and-software-specific-risk", primary: true },
     ],
-    lastVerified: "2026-06-27",
+    lastVerified: "2026-06-28",
   },
 ];
